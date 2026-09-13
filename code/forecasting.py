@@ -33,6 +33,7 @@ from statistics import median
 from models import (
     AffordabilityStatus,
     Decision,
+    EventRecord,
     PaymentMethod,
     UserFinancialContext,
 )
@@ -305,6 +306,109 @@ def _option_plan(safe: dict) -> Plan:
     )
 
 
+def spending_changes_needed(
+    context: UserFinancialContext, safe_options, days: int = WINDOW_DAYS
+) -> str:
+    """Minimum set of permitted spending changes that makes a full payment safe.
+
+    Returns "none" when a safe plan already covers the full requested amount
+    without changes. Otherwise greedily builds up to 3 actions drawn only from
+    the user's reducible_categories / stoppable_categories events that fall in
+    the window (never protected categories, never one action per event twice).
+    Each candidate change is simulated; the change giving the largest headroom
+    gain is kept (ties: stop before reduce, then lowest event_id). Reduce
+    floors at minimum_allowed_amount, else halves the amount.
+    """
+    import copy as _copy
+    from dataclasses import replace as _replace
+
+    profile = context.profile
+    request = context.request
+    deadline = request.desired_completion_date
+    protected = set(profile.protected_categories or [])
+    reducible = set(profile.reducible_categories or [])
+    stoppable = set(profile.stoppable_categories or [])
+
+    def feasible(evts) -> bool:
+        probe = _copy.copy(context)
+        probe.events = evts
+        d_full = earliest_date_for_full_payment(probe, days)
+        return d_full is not None and (deadline is None or d_full <= deadline)
+
+    if feasible(context.events):
+        return "none"
+
+    # Flexible, in-window cash-out events eligible for change.
+    window_start, window_end = _window(context, days)
+    eligible: list[EventRecord] = []
+    for e in context.events:
+        if e.tag.value not in ("cash_out", "scheduled_debit_outflow", "pending_debit_reserve"):
+            continue
+        if e.category in protected or e.direction != "debit" or not e.amount_home:
+            continue
+        if not (e.category in reducible or e.category in stoppable):
+            continue
+        when = e.settlement_date or e.event_date
+        if when is None or not (window_start <= when <= window_end):
+            continue
+        eligible.append(e)
+
+    actions: list[str] = []
+    changed: dict[str, EventRecord] = {}
+    for _ in range(3):
+        best = None  # (gain, kind_rank, event_id, action_str, new_events)
+        for e in eligible:
+            if e.event_id in changed:
+                continue  # stop and reduce of the same event are mutually exclusive
+            for kind in ("stop", "reduce"):
+                if kind == "reduce" and e.category not in reducible:
+                    continue
+                if kind == "stop" and e.category not in stoppable:
+                    continue
+                if kind == "reduce":
+                    floor_amt = e.minimum_allowed_amount
+                    new_amt = floor_amt if floor_amt is not None else e.amount_home / 2.0
+                    new_amt = min(new_amt, e.amount_home)
+                    if new_amt >= e.amount_home:
+                        continue
+                probe_events = list(context.events)
+                probe_events.remove(e)
+                if kind == "stop":
+                    new_e = _replace(e, amount_home=0.0)
+                else:
+                    new_e = _replace(e, amount_home=new_amt)
+                probe_events.append(new_e)
+                probe = _copy.copy(context)
+                probe.events = probe_events
+                d_full = earliest_date_for_full_payment(probe, days)
+                head = None
+                if d_full is not None and (deadline is None or d_full <= deadline):
+                    series, _, _ = forecast_balance(probe, days)
+                    head = min(b for _, b in series)
+                gain = head if head is not None else float("-inf")
+                key = (gain, 0 if kind == "stop" else 1, e.event_id)
+                if best is None or key > best[0]:
+                    action = (
+                        f"stop:{e.event_id}"
+                        if kind == "stop"
+                        else f"reduce_to:{e.event_id}:{fmt_amount(new_amt)}"
+                    )
+                    best = (key, action, new_e)
+        if best is None or best[0][0] == float("-inf"):
+            break
+        _, action, new_e = best
+        actions.append(action)
+        changed[new_e.event_id] = new_e
+        # Re-evaluate feasibility with accumulated changes.
+        evts = [changed.get(x.event_id, x) for x in context.events]
+        if feasible(evts):
+            break
+
+    if not feasible([changed.get(x.event_id, x) for x in context.events]):
+        return "none"  # even maxed changes cannot make it safe; don't recommend them
+    return "|".join(actions) if actions else "none"
+
+
 def decide(context: UserFinancialContext, days: int = WINDOW_DAYS) -> Decision:
     """Produce the schema-valid Decision for one request's context.
 
@@ -392,13 +496,42 @@ def decide(context: UserFinancialContext, days: int = WINDOW_DAYS) -> Decision:
         else:
             status = AffordabilityStatus.AFFORDABLE_WITH_PLAN
         method = best.method
+        changes = "none"
     else:
+        # No plan without changes: try permitted spending changes (Stage 5.1).
         plan_str = "none"
         method = PaymentMethod.NOT_RECOMMENDED
         if d_full is not None and (deadline is None or d_full <= deadline):
             status = AffordabilityStatus.AFFORDABLE_LATER  # capacity exists; no eligible plan
         else:
             status = AffordabilityStatus.NOT_AFFORDABLE
+        changes = spending_changes_needed(context, [], days)
+        if changes != "none":
+            probe = context
+            probe_events = list(context.events)
+            for action in changes.split("|"):
+                eid = action.split(":", 1)[1]
+                for e in context.events:
+                    if e.event_id == eid:
+                        if action.startswith("stop:"):
+                            new_e = EventRecord(**{**e.__dict__, "amount_home": 0.0})
+                        else:
+                            new_amt = float(action.rsplit(":", 1)[1])
+                            new_e = EventRecord(**{**e.__dict__, "amount_home": new_amt})
+                        probe_events[probe_events.index(e)] = new_e
+                        break
+            probe = context
+            probe.events = probe_events
+            d_full_changed = earliest_date_for_full_payment(probe, days)
+            probe.events = context.events  # restore original context
+            if d_full_changed is not None and (deadline is None or d_full_changed <= deadline):
+                status = AffordabilityStatus.AFFORDABLE_WITH_PLAN
+                plan_str = f"{d_full_changed.isoformat()}:{fmt_amount(requested)}"
+                if "full_payment" in methods:
+                    method = PaymentMethod.FULL_PAYMENT
+                elif "wait" in methods:
+                    method = PaymentMethod.WAIT
+                d_full = d_full_changed
 
     earliest = d_full.isoformat() if d_full is not None else ""
     return Decision(
@@ -408,6 +541,6 @@ def decide(context: UserFinancialContext, days: int = WINDOW_DAYS) -> Decision:
         recommended_payment_method=method,
         payment_plan=plan_str,
         earliest_date_for_full_payment=earliest,
-        spending_changes_needed="none",
+        spending_changes_needed=changes,
         decision_explanation="deterministic decision (explanation pending)",
     )
