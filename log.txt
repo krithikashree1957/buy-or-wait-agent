@@ -86,3 +86,43 @@ repo_root=c:\Users\LENOVO\hackerrank-orchestrate-september26
 worktree=main
 parent_agent=none
 
+## [2026-09-13T13:15:00+05:30] ingest.py implemented + context assembly test
+
+User Prompt (verbatim, secrets redacted):
+Constraint: use minimum tokens/credits necessary... Implement code/ingest.py fully: load all dataset CSVs; build UserFinancialContext per request_id (profile, events tagged with cash-state status + exclusions logged not silently dropped, blank amounts via images.csv->vision stub wiring, payment options, messages, FX conversion by settlement date); write code/tests/test_ingest.py printing readable summaries for 2-3 sample request_ids. Do not implement forecasting/plan-ranking/vision logic yet. Report back just the test script's printed summaries.
+
+Agent Response Summary:
+Implemented ingest.py (471 lines): raw loaders + parse helpers (date/amount/bool/multi-value), FxTable with settlement-date-matched direct->inverse->deterministic same-date BFS chain conversion (unresolvable FX -> None + warning, never guessed), build_event with full cash-state tagging (settled debit/credit count; pending debit reserved; pending+scheduled credits excluded; cancelled/duplicate/failed/unrealized excluded; unknown status flagged), blank-amount resolution wired through images.csv related_event_id -> dataset/media/images/<id>.png -> vision stub (NotImplementedError caught, resolution recorded, warning emitted, amount stays None), and load_user_context assembling profile/events/exclusions/options/messages per request. Extended models.py with CashFlowTag, EventRecord, PaymentOptionRecord, ProfileRecord, RequestRecord, UserFinancialContext. Created code/tests/test_ingest.py (3 sample summaries + full-dataset vocabulary scan). Ran it successfully: request_01/02/03 contexts correct; blank_amount=16 events dataset-wide matching the 16 images; statuses vocabulary {settled 25148, pending 71, scheduled 70, cancelled 22, failed 21, unrealized 10} fully covered by tagger; flexibility {fixed, reducible, reducible_or_stoppable, stoppable}; no FX needed for users 01-03 (all native). Verified sample option math: request_02 solved installment plan = option_05 3x15,952,906.67 total 47,858,720.01 incl. fee.
+
+Actions:
+* editor: rewrote code/ingest.py in 5 chunks; extended code/models.py; created code/tests/test_ingest.py
+* run_commands: python code/tests/test_ingest.py (output -> %TEMP%\ingest_test_out.txt, read back)
+
+Context:
+tool=Cline
+branch=main
+repo_root=c:\Users\LENOVO\hackerrank-orchestrate-september26
+worktree=main
+parent_agent=none
+
+## [2026-09-13T13:25:00+05:30] Verified ingest exclusion rules with row-level evidence
+
+User Prompt (verbatim, secrets redacted):
+Constraint: minimum credits - targeted verification, not new code, unless a bug is found. Using ingest.py verify: 1) all failed/unrealized rows excluded from cash_in/cash_out with logged reason; 2) no 'duplicate' status in raw data, clarify dedup; 3) 2-3 pending income events excluded from cash_in. Report just pass/fail per check with example event_ids.
+
+Agent Response Summary:
+Created code/tests/verify_exclusions.py, which runs all 25,342 raw event rows through ingest.build_event and prints per-check evidence. Check 1 PASS: all 21 failed rows tagged excluded_failed (e.g. event_438, event_2287) and all 10 unrealized rows tagged excluded_unrealized (e.g. event_1856, event_1960, both investment_valuation/non_cash) with zero leaks into cash_in/cash_out. Check 2 PASS/NA: raw statuses are exactly {settled 25148, pending 71, scheduled 70, cancelled 22, failed 21, unrealized 10}; no 'duplicate' status exists, so the EXCLUDED_DUPLICATE branch is a defensive no-op - no content-based dedup is implemented or needed; corrections/conflicts in this dataset are encoded via explicit statuses and linked_event_id, handled downstream by the conflict-resolution rules. Check 3 PASS: all 8 pending credits tagged excluded_pending_credit (e.g. event_1785, event_3230, event_4994, all type=refund), so no pending money is counted as available. No bug found; no ingest.py change needed.
+
+Actions:
+* editor: created code/tests/verify_exclusions.py
+* run_commands: python code/tests/verify_exclusions.py (output -> %TEMP%\verify_excl_out.txt, read back)
+
+Context:
+tool=Cline
+branch=main
+repo_root=c:\Users\LENOVO\hackerrank-orchestrate-september26
+worktree=main
+parent_agent=none
+
+
+
