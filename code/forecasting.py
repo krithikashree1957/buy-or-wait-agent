@@ -41,7 +41,7 @@ WINDOW_DAYS = 90
 MIN_GAP_DAYS = 20
 MAX_GAP_DAYS = 40
 MIN_OCCURRENCES_DEBIT = 2
-MIN_OCCURRENCES_INCOME = 1  # income (salary) projects even from one payment
+MIN_OCCURRENCES_INCOME = 1  # salary projects even from one settled occurrence
 
 
 def fmt_amount(value: float) -> str:
@@ -142,9 +142,12 @@ def _project_recurring(
             continue
         dates = [d for d, _ in occurrences]
         gaps = [(dates[i + 1] - dates[i]).days for i in range(len(dates) - 1)]
-        gap = int(round(median(gaps))) if gaps else 30  # single income occurrence: monthly default
-        if not (MIN_GAP_DAYS <= gap <= MAX_GAP_DAYS):
-            continue
+        if gaps:
+            gap = int(round(median(gaps)))
+            if not (MIN_GAP_DAYS <= gap <= MAX_GAP_DAYS):
+                continue
+        else:
+            gap = 30  # single income occurrence: conservative monthly default
         amount = median([a for _, a in occurrences])
         sign = 1.0 if direction == "credit" else -1.0
         t = dates[-1]
