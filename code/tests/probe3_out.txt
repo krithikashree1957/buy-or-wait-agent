@@ -1,0 +1,58 @@
+### request_02 src=sample_requests.csv
+req date=2025-08-05 amt=46018000.0 deadline=2025-10-10 partial=False
+bal=60383889.2 minkeep=29158400.0 methods=['partial_payment', 'installments'] maxinst=7
+-- CREDIT events (all, sorted):
+event_104 cash_in settled income salary ev=2025-03-15 st=2025-03-15 amt=33345000.0 link=
+event_112 cash_in settled income salary ev=2025-04-15 st=2025-04-15 amt=33345000.0 link=
+event_120 cash_in settled income salary ev=2025-05-15 st=2025-05-15 amt=33345000.0 link=
+event_128 cash_in settled income salary ev=2025-06-15 st=2025-06-15 amt=33345000.0 link=
+event_136 cash_in settled income salary ev=2025-07-15 st=2025-07-15 amt=33345000.0 link=
+-- DEBIT events within window or reserved/scheduled:
+event_185 pending_debit_reserve pending expense shopping fixed ev=2025-08-04 st=2025-08-08 amt=1651100.0
+-- our projected FLOWS (nonzero, first 45 days):
+  2025-08-07 -1132400.00
+  2025-08-08 -4691100.00
+  2025-08-12 -369550.00
+  2025-08-14 +33345000.00
+  2025-08-19 -2220334.75
+  2025-09-04 -3534000.00
+  2025-09-06 -1132400.00
+  2025-09-07 -3040000.00
+  2025-09-08 -2220334.75
+  2025-09-11 -369550.00
+  2025-09-13 +33345000.00
+min_balance_90d=54190839.20
+-- messages:
+{'message_id': 'message_01', 'user_id': 'user_02', 'request_id': '', 'related_event_id': '', 'sent_at': '2025-07-29T09:30:00Z', 'source_type': 'employer', 'message_text': 'Rincian penggajian Anda di Cobalt Systems telah berubah. Gaji bulanan Anda naik menjadi IDR 42750000. Perubahan ini berlaku mulai 2025-08-15. Jumlah yang diperbarui akan terlihat pada slip gaji berikutnya. Ref payroll EMP-0001.'}
+
+### request_03 src=sample_requests.csv
+req date=2019-09-03 amt=5491000.0 deadline=2019-11-15 partial=False
+bal=5810300.0 minkeep=2668700.0 methods=['full_payment', 'partial_payment', 'installments'] maxinst=2
+-- CREDIT events (all, sorted):
+event_186 cash_in settled income salary ev=2019-04-15 st=2019-04-15 amt=4365000.0 link=
+event_192 cash_in settled income salary ev=2019-05-15 st=2019-05-15 amt=4365000.0 link=
+event_198 cash_in settled income salary ev=2019-06-15 st=2019-06-15 amt=4365000.0 link=
+event_204 cash_in settled income salary ev=2019-07-15 st=2019-07-15 amt=4365000.0 link=
+event_210 cash_in settled income salary ev=2019-08-15 st=2019-08-15 amt=4365000.0 link=
+event_211 cash_in settled income salary ev=2019-08-20 st=2019-08-20 amt=1964250.0 link=
+event_253 cash_in settled income salary ev=2019-08-31 st=2019-08-31 amt=None link=
+-- DEBIT events within window or reserved/scheduled:
+event_254 pending_debit_reserve pending expense healthcare fixed ev=2019-09-02 st=2019-09-07 amt=95000.0
+-- our projected FLOWS (nonzero, first 45 days):
+  2019-09-03 -1140000.00
+  2019-09-07 -95000.00
+  2019-09-08 -171377.42
+  2019-09-10 -117800.00
+  2019-09-13 -20900.00
+  2019-09-14 +4193752.40
+  2019-09-19 +1964250.00
+  2019-09-28 -171377.42
+  2019-10-03 -1140000.00
+  2019-10-05 -171247.60
+  2019-10-10 -117800.00
+  2019-10-13 -20900.00
+  2019-10-14 +4365000.00
+  2019-10-18 -171377.42
+min_balance_90d=4265222.58
+-- messages:
+{'message_id': 'message_02', 'user_id': 'user_03', 'request_id': 'request_03', 'related_event_id': '', 'sent_at': '2019-08-31T09:30:00Z', 'source_type': 'employer', 'message_text': 'Tim payroll BrightPath Media telah mengirim pembaruan. Gaji rutin untuk penggajian berikutnya sudah dikonfirmasi. Slip gaji berikutnya akan menampilkan gaji rutin dan penyesuaian satu kali secara terpisah. Ref payroll EMP-0002.'}

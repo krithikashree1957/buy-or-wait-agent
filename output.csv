@@ -1,251 +1,251 @@
 request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation
-request_26,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_27,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_28,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_29,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_30,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_31,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_32,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_33,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_34,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_35,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_36,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_37,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_38,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_39,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_40,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_41,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_42,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_43,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_44,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_45,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_46,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_47,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_48,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_49,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_50,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_51,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_52,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_53,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_54,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_55,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_56,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_57,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_58,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_59,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_60,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_61,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_62,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_63,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_64,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_65,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_66,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_67,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_68,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_69,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_70,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_71,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_72,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_73,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_74,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_75,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_76,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_77,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_78,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_79,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_80,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_81,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_82,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_83,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_84,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_85,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_86,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_87,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_88,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_89,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_90,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_91,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_92,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_93,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_94,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_95,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_96,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_97,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_98,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_99,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_100,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_101,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_102,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_103,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_104,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_105,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_106,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_107,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_108,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_109,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_110,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_111,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_112,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_113,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_114,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_115,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_116,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_117,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_118,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_119,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_120,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_121,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_122,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_123,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_124,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_125,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_126,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_127,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_128,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_129,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_130,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_131,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_132,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_133,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_134,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_135,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_136,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_137,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_138,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_139,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_140,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_141,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_142,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_143,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_144,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_145,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_146,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_147,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_148,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_149,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_150,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_151,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_152,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_153,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_154,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_155,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_156,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_157,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_158,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_159,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_160,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_161,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_162,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_163,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_164,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_165,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_166,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_167,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_168,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_169,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_170,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_171,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_172,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_173,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_174,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_175,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_176,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_177,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_178,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_179,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_180,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_181,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_182,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_183,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_184,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_185,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_186,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_187,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_188,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_189,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_190,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_191,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_192,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_193,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_194,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_195,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_196,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_197,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_198,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_199,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_200,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_201,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_202,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_203,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_204,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_205,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_206,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_207,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_208,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_209,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_210,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_211,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_212,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_213,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_214,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_215,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_216,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_217,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_218,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_219,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_220,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_221,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_222,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_223,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_224,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_225,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_226,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_227,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_228,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_229,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_230,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_231,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_232,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_233,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_234,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_235,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_236,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_237,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_238,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_239,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_240,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_241,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_242,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_243,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_244,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_245,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_246,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_247,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_248,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_249,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_250,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_251,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_252,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_253,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_254,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_255,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_256,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_257,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_258,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_259,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_260,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_261,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_262,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_263,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_264,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_265,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_266,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_267,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_268,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_269,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_270,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_271,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_272,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_273,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_274,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
-request_275,0,not_affordable,not_recommended,none,,none,placeholder: decision logic not yet implemented
+request_26,15656000,affordable_now,full_payment,2025-08-03:15656000,2025-08-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_27,6670,affordable_now,full_payment,2026-07-05:6670,2026-07-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_28,420.51,affordable_later,wait,2024-06-14:1302.4,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_29,51524,affordable_now,full_payment,2025-11-04:51524,2025-11-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_30,775.2,affordable_with_plan,installments,2026-04-06:268.74|2026-05-06:268.74|2026-06-05:268.74,2026-04-06,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_31,7161860,affordable_later,wait,2024-09-13:18164000,2024-09-13,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_32,23199,affordable_later,wait,2025-02-15:40018,2025-02-15,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_33,61190,affordable_later,wait,2026-01-14:118000,2026-01-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_34,129400,affordable_now,full_payment,2024-12-04:129400,2024-12-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_35,68250,affordable_later,wait,2025-12-16:212000,2025-12-16,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_36,1094.27,affordable_later,wait,2026-08-14:3954,2026-08-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_37,8595600,affordable_later,wait,2024-03-17:14649000,2024-03-17,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_38,287.61,affordable_later,wait,2025-08-14:971.3,2025-08-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_39,186060,affordable_later,wait,2026-04-14:208600,2026-04-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_40,540,affordable_later,wait,2024-06-14:1290.3,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_41,18665600,affordable_later,wait,2025-11-14:38760000,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_42,52100,affordable_now,full_payment,2026-01-05:52100,2026-01-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_43,11485500,affordable_later,wait,2024-10-14:43339000,2024-10-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_44,50160,affordable_later,wait,2025-02-15:95800,2025-02-15,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_45,7607600,affordable_later,wait,2026-08-14:21983000,2026-08-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_46,49450,affordable_with_plan,installments,2024-12-03:25714|2024-12-31:25714,2024-12-03,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_47,38114000,affordable_now,full_payment,2025-05-05:38114000,2025-05-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_48,45700,affordable_now,full_payment,2026-07-25:45700,2026-07-25,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_49,19285443.34,affordable_with_plan,installments,2024-03-18:11902106.67|2024-04-18:11902106.67|2024-05-19:11902106.67,2024-03-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_50,43900,affordable_now,full_payment,2025-08-06:43900,2025-08-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_51,2191000,affordable_now,full_payment,2026-01-03:2191000,2026-01-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_52,26530,affordable_later,wait,2024-06-14:28870,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_53,714.42,affordable_with_plan,installments,2025-11-21:589.06|2025-12-19:589.06|2026-01-16:589.06,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_54,7577.93,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_55,154596.19,affordable_with_plan,installments,2026-06-11:75781.33|2026-07-12:75781.33|2026-08-12:75781.33,2026-06-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_56,881.56,affordable_with_plan,installments,2025-02-03:458.42|2025-03-03:458.42,2025-02-03,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_57,19859.4,affordable_later,wait,2026-05-14:61446,2026-05-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_58,16226000,affordable_now,full_payment,2024-12-07:16226000,2024-12-07,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_59,140600,affordable_with_plan,installments,2025-05-07:48741.33|2025-06-04:48741.33|2025-07-02:48741.33,2025-05-04,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_60,199.89,affordable_now,full_payment,2026-01-06:199.89,2026-01-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_61,29062,affordable_with_plan,installments,2024-03-17:10074.83|2024-04-17:10074.83|2024-05-18:10074.83,2024-03-03,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_62,404.23,affordable_now,full_payment,2025-08-05:404.23,2025-08-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_63,78010,affordable_with_plan,partial_payment,2026-07-07:78010|2026-09-13:265890,2026-09-13,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method partial_payment."
+request_64,56172.39,affordable_with_plan,installments,2024-06-11:22082.67|2024-07-12:22082.67|2024-08-12:22082.67,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_65,10689.8,not_affordable,not_recommended,none,2025-12-14,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_66,22200,affordable_now,full_payment,2026-04-03:22200,2026-04-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_67,724.54,affordable_later,wait,2024-09-13:2094,2024-09-13,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_68,1796.83,affordable_with_plan,installments,2025-02-14:725.09|2025-03-14:725.09|2025-04-11:725.09,2025-02-22,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_69,529.1,affordable_now,full_payment,2026-01-04:529.1,2026-01-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_70,61260.05,affordable_later,wait,2025-01-16:243900,2025-01-16,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_71,3285100,not_affordable,not_recommended,none,2025-07-17,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_72,11330,affordable_now,full_payment,2026-07-05:11330,2026-07-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_73,71400,affordable_now,full_payment,2023-01-20:71400,2023-01-20,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_74,5010,affordable_now,full_payment,2025-08-04:5010,2025-08-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_75,28270,affordable_with_plan,installments,2026-04-09:9800.27|2026-05-09:9800.27|2026-06-08:9800.27,2026-04-06,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_76,1381.8,affordable_later,not_recommended,none,2024-06-23,none,"Based on current balance and upcoming commitments, affordable_later with recommended method not_recommended."
+request_77,60700,affordable_now,full_payment,2025-11-05:60700,2025-11-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_78,50200,affordable_now,full_payment,2025-10-02:50200,2025-10-02,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_79,1008.08,affordable_with_plan,partial_payment,2024-09-04:1008.08|2024-10-14:1143.52,2024-10-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method partial_payment."
+request_80,125410,affordable_later,not_recommended,none,2025-02-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method not_recommended."
+request_81,2076,affordable_now,full_payment,2026-07-03:2076,2026-07-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_82,722.4,affordable_later,wait,2024-12-16:1405.2,2024-12-16,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_83,0,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_84,48980,affordable_later,wait,2026-04-14:95400,2026-04-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_85,2172270,affordable_later,not_recommended,none,2024-03-17,none,"Based on current balance and upcoming commitments, affordable_later with recommended method not_recommended."
+request_86,46300,affordable_now,full_payment,2025-08-03:46300,2025-08-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_87,0,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_88,11959.79,affordable_with_plan,installments,2024-06-14:9045.23|2024-07-15:9045.23|2024-08-15:9045.23,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_89,12406962.01,affordable_with_plan,installments,2025-11-18:4768746.67|2025-12-16:4768746.67|2026-01-13:4768746.67,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_90,2560,affordable_now,full_payment,2026-07-06:2560,2026-07-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_91,1009.4,affordable_later,wait,2024-09-14:1927.2,2024-09-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_92,34034,affordable_now,full_payment,2025-02-05:34034,2025-02-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_93,1729.2,affordable_now,full_payment,2026-04-07:1729.2,2026-04-07,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_94,572,affordable_now,full_payment,2024-12-04:572,2024-12-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_95,76420,not_affordable,not_recommended,none,2025-07-25,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_96,90195.49,affordable_with_plan,installments,2026-01-10:31269.33|2026-02-09:31269.33|2026-03-11:31269.33,2026-01-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_97,5115.99,affordable_with_plan,installments,2024-03-19:8145.28|2024-04-19:8145.28|2024-05-20:8145.28,2024-03-17,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_98,13789.55,affordable_later,wait,2025-08-14:27148,2025-08-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_99,18062,affordable_now,full_payment,2026-07-04:18062,2026-07-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_100,29616.75,affordable_with_plan,installments,2024-06-13:12866.19|2024-07-14:12866.19|2024-08-14:12866.19,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_101,143500,affordable_now,full_payment,2025-11-03:143500,2025-11-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_102,1716,affordable_with_plan,installments,2026-04-05:594.88|2026-05-05:594.88|2026-06-04:594.88,2026-04-05,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_103,30624,not_affordable,not_recommended,none,2024-10-13,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_104,17204,affordable_now,full_payment,2025-02-04:17204,2025-02-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_105,53500,affordable_now,full_payment,2026-06-08:53500,2026-06-08,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_106,639,affordable_later,wait,2025-01-16:2207.7,2025-01-16,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_107,2534.4,affordable_with_plan,installments,2025-05-08:878.59|2025-06-05:878.59|2025-07-03:878.59,2025-05-05,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_108,6993.8,affordable_later,wait,2026-07-23:55308,2026-07-23,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_109,1078.57,affordable_with_plan,installments,2024-03-18:645.98|2024-04-18:645.98|2024-05-19:645.98,2024-03-17,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_110,22352,affordable_with_plan,installments,2025-08-06:7748.69|2025-09-03:7748.69|2025-10-01:7748.69,2025-08-06,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_111,16625000,affordable_now,full_payment,2026-04-03:16625000,2026-04-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_112,271.7,affordable_now,full_payment,2024-06-05:271.7,2024-06-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_113,36500,affordable_now,full_payment,2026-09-04:36500,2026-09-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_114,65300,affordable_now,full_payment,2026-01-04:65300,2026-01-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_115,19960,affordable_later,wait,2024-09-29:80500,2024-09-29,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_116,33170,affordable_later,not_recommended,none,2025-04-15,none,"Based on current balance and upcoming commitments, affordable_later with recommended method not_recommended."
+request_117,880,affordable_now,full_payment,2026-07-05:880,2026-07-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_118,738.1,affordable_with_plan,installments,2024-12-07:255.87|2025-01-07:255.87|2025-02-07:255.87,2024-12-07,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_119,8591.01,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_120,7714000,affordable_now,full_payment,2026-04-06:7714000,2026-04-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_121,633.6,affordable_now,full_payment,2024-03-03:633.6,2024-03-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_122,20558000,affordable_with_plan,installments,2025-08-05:7126773.33|2025-09-02:7126773.33|2025-09-30:7126773.33,2025-08-05,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_123,4076000,affordable_now,full_payment,2026-01-07:4076000,2026-01-07,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_124,1648.56,affordable_with_plan,installments,2024-06-11:1076.12|2024-07-12:1076.12|2024-08-12:1076.12,2024-07-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_125,6468,affordable_now,full_payment,2025-11-06:6468,2025-11-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_126,159600,affordable_now,full_payment,2026-07-03:159600,2026-07-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_127,0,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_128,25168,affordable_now,full_payment,2025-02-07:25168,2025-02-07,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_129,205.97,affordable_later,not_recommended,none,2026-06-13,none,"Based on current balance and upcoming commitments, affordable_later with recommended method not_recommended."
+request_130,676.17,affordable_later,wait,2024-12-16:1978.8,2024-12-16,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_131,1472.87,affordable_with_plan,installments,2025-05-06:643.14|2025-06-03:643.14|2025-07-01:643.14,2025-05-24,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_132,379.86,affordable_now,full_payment,2026-01-05:379.86,2026-01-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_133,15770000,affordable_later,not_recommended,none,2024-03-07,none,"Based on current balance and upcoming commitments, affordable_later with recommended method not_recommended."
+request_134,7318646.95,affordable_later,wait,2025-08-14:21831000,2025-08-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_135,304.8,affordable_now,full_payment,2026-07-06:304.8,2026-07-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_136,560.4,affordable_now,full_payment,2024-06-03:560.4,2024-06-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_137,49935,affordable_later,wait,2025-11-14:80100,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_138,1017.74,affordable_with_plan,partial_payment,2026-04-07:1017.74|2026-04-14:239.2,2026-04-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method partial_payment."
+request_139,2074.05,affordable_with_plan,installments,2024-09-07:802.88|2024-10-08:802.88|2024-11-08:802.88,2024-09-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_140,4591.4,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_141,40810.43,not_affordable,not_recommended,none,2026-02-13,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_142,1263.6,affordable_now,full_payment,2024-12-05:1263.6,2024-12-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_143,5222.8,affordable_later,wait,2025-05-16:12584,2025-05-16,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_144,233.34,affordable_now,full_payment,2026-07-04:233.34,2026-07-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_145,74248.38,affordable_with_plan,installments,2024-03-20:75365.33|2024-04-20:75365.33|2024-05-21:75365.33,2024-03-17,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_146,48960,affordable_later,wait,2025-10-13:449400,2025-10-13,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_147,0,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_148,9996.09,affordable_with_plan,installments,2024-06-14:7710.56|2024-07-15:7710.56|2024-08-15:7710.56,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_149,32896.28,affordable_with_plan,installments,2025-11-18:12706.03|2025-12-16:12706.03|2026-01-13:12706.03,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_150,496.1,affordable_with_plan,installments,2026-01-06:171.98|2026-02-05:171.98|2026-03-07:171.98,2026-01-06,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_151,26999000,affordable_now,full_payment,2024-09-03:26999000,2024-09-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_152,13185.27,affordable_with_plan,installments,2025-02-12:4812.43|2025-03-12:4812.43|2025-04-09:4812.43,2025-02-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_153,406.6,affordable_later,wait,2026-09-13:2830.8,2026-09-13,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_154,1625.8,affordable_with_plan,installments,2024-12-04:563.61|2025-01-04:563.61|2025-02-04:563.61,2024-12-04,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_155,111305,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_156,12557.6,affordable_later,wait,2026-05-14:43076,2026-05-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_157,7098679.25,affordable_later,wait,2024-03-14:23503000,2024-03-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_158,242600,affordable_with_plan,installments,2025-08-07:84101.33|2025-09-04:84101.33|2025-10-02:84101.33,2025-08-07,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_159,13398,affordable_now,full_payment,2026-01-04:13398,2026-01-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_160,643.61,affordable_with_plan,installments,2024-06-13:432.05|2024-07-14:432.05|2024-08-14:432.05,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_161,9620705.89,affordable_later,wait,2026-01-13:21204000,2026-01-13,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_162,5549479.65,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_163,15513824.26,affordable_with_plan,installments,2024-09-10:6692053.33|2024-10-11:6692053.33|2024-11-11:6692053.33,2024-09-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_164,27018000,affordable_with_plan,installments,2025-02-11:9366240|2025-03-11:9366240|2025-04-08:9366240,2025-02-04,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_165,80600,affordable_now,full_payment,2026-04-06:80600,2026-04-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_166,2907.6,affordable_with_plan,installments,2024-12-03:1007.97|2025-01-03:1007.97|2025-02-03:1007.97,2024-12-03,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_167,43802,affordable_now,full_payment,2025-05-05:43802,2025-05-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_168,49380,affordable_later,not_recommended,none,2026-01-07,none,"Based on current balance and upcoming commitments, affordable_later with recommended method not_recommended."
+request_169,41976,affordable_now,full_payment,2024-03-04:41976,2024-03-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_170,36253398.4,affordable_with_plan,installments,2025-08-06:12804480|2025-09-03:12804480|2025-10-01:12804480,2025-08-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_171,190.65,not_affordable,not_recommended,none,2026-09-13,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_172,10200,affordable_with_plan,installments,2024-06-05:5304|2024-07-03:5304,2024-06-05,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_173,79630.53,affordable_with_plan,installments,2025-11-21:39173.33|2025-12-19:39173.33|2026-01-16:39173.33,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_174,1146.2,affordable_with_plan,installments,2026-04-04:397.35|2026-05-04:397.35|2026-06-03:397.35,2026-04-04,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_175,2346.3,affordable_now,full_payment,2024-09-06:2346.3,2024-09-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_176,579.95,affordable_later,wait,2025-02-21:1239.7,2025-02-21,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_177,1017.6,affordable_now,full_payment,2026-01-05:1017.6,2026-01-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_178,2938.1,affordable_with_plan,installments,2024-12-07:1018.54|2025-01-07:1018.54|2025-02-07:1018.54,2024-12-07,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_179,17808700,affordable_later,wait,2025-05-16:41648000,2025-05-16,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_180,66500,affordable_now,full_payment,2026-07-06:66500,2026-07-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_181,839,not_affordable,not_recommended,none,2024-05-18,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_182,65714,affordable_now,full_payment,2025-08-05:65714,2025-08-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_183,26866000,affordable_with_plan,installments,2026-04-10:9313546.67|2026-05-10:9313546.67|2026-06-09:9313546.67,2026-04-07,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_184,35331.95,not_affordable,not_recommended,none,2024-08-13,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_185,644.4,affordable_later,wait,2025-11-14:1257.3,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_186,17584.36,affordable_later,wait,2026-01-14:26554,2026-01-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_187,51590,affordable_later,wait,2024-10-14:187500,2024-10-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_188,318.3,not_affordable,not_recommended,none,2025-04-15,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_189,488.4,affordable_now,full_payment,2026-07-04:488.4,2026-07-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_190,1075.8,affordable_later,wait,2024-12-16:2557.5,2024-12-16,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_191,664.4,affordable_now,full_payment,2025-05-03:664.4,2025-05-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_192,338.8,affordable_later,wait,2026-04-23:2046,2026-04-23,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_193,261.62,affordable_with_plan,installments,2024-03-21:420.23|2024-04-21:420.23|2024-05-22:420.23,2024-03-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_194,65380,affordable_later,wait,2025-09-23:132800,2025-09-23,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_195,1170.4,affordable_with_plan,installments,2026-01-09:405.74|2026-02-08:405.74|2026-03-10:405.74,2026-01-06,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_196,762.3,affordable_now,full_payment,2024-06-03:762.3,2024-06-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_197,50939000,affordable_with_plan,installments,2025-11-19:17658853.33|2025-12-17:17658853.33|2026-01-14:17658853.33,2025-11-05,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_198,185800,affordable_now,full_payment,2026-07-07:185800,2026-07-07,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_199,23674000,affordable_with_plan,installments,2024-09-07:8206986.67|2024-10-08:8206986.67|2024-11-08:8206986.67,2024-09-04,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_200,21717000,affordable_now,full_payment,2025-02-06:21717000,2025-02-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_201,23997000,affordable_now,full_payment,2026-04-03:23997000,2026-04-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_202,123900,affordable_now,full_payment,2024-12-05:123900,2024-12-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_203,1442.1,affordable_with_plan,installments,2025-05-10:499.93|2025-06-07:499.93|2025-07-05:499.93,2025-05-07,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_204,588.74,affordable_now,full_payment,2026-01-04:588.74,2026-01-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_205,10621000,affordable_now,full_payment,2024-03-06:10621000,2024-03-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_206,1404.7,affordable_with_plan,installments,2025-08-03:486.96|2025-08-31:486.96|2025-09-28:486.96,2025-08-03,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_207,9257.6,affordable_later,wait,2026-07-15:11830,2026-07-15,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_208,4413000,affordable_now,full_payment,2024-06-07:4413000,2024-06-07,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_209,6061,not_affordable,not_recommended,none,2025-12-20,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_210,1274.52,affordable_with_plan,partial_payment,2026-04-06:1274.52|2026-04-14:85.5,2026-04-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method partial_payment."
+request_211,697.99,affordable_later,wait,2024-09-13:1788.6,2024-09-13,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_212,11825456.52,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_213,3362.4,affordable_with_plan,installments,2026-01-21:1165.63|2026-02-20:1165.63|2026-03-22:1165.63,2026-01-07,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_214,69750,affordable_with_plan,installments,2024-12-04:36270|2025-01-01:36270,2024-12-04,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_215,29986,affordable_with_plan,installments,2025-05-09:10395.15|2025-06-06:10395.15|2025-07-04:10395.15,2025-05-06,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_216,994.8,affordable_later,wait,2026-08-14:3332.4,2026-08-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_217,27055.67,affordable_with_plan,installments,2024-03-19:12889.07|2024-04-19:12889.07|2024-05-20:12889.07,2024-03-17,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_218,32002064.8,affordable_with_plan,installments,2025-08-07:21195893.33|2025-09-04:21195893.33|2025-10-02:21195893.33,2025-08-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_219,0,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_220,249.32,not_affordable,not_recommended,none,2024-07-13,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_221,109800,affordable_now,full_payment,2025-11-03:109800,2025-11-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_222,34078,affordable_now,full_payment,2026-01-05:34078,2026-01-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_223,898.7,affordable_now,full_payment,2024-09-07:898.7,2024-09-07,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_224,10327000,affordable_with_plan,installments,2025-02-04:5370040|2025-03-04:5370040,2025-02-04,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_225,14739409.6,affordable_with_plan,installments,2026-07-20:7647120|2026-08-19:7647120|2026-09-18:7647120,2026-07-15,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_226,157000,affordable_now,full_payment,2024-12-03:157000,2024-12-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_227,21110,not_affordable,not_recommended,none,2025-06-22,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_228,7643700,not_affordable,not_recommended,none,2026-07-05,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_229,672.52,affordable_with_plan,installments,2024-03-18:529.29|2024-04-18:529.29|2024-05-19:529.29,2024-03-17,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_230,3537.6,affordable_now,full_payment,2025-08-06:3537.6,2025-08-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_231,35706,affordable_with_plan,installments,2026-01-06:12378.08|2026-02-05:12378.08|2026-03-07:12378.08,2026-01-03,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_232,1118.4,affordable_later,wait,2024-06-14:1970.1,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_233,5047278.47,affordable_with_plan,partial_payment,2025-11-07:5047278.47|2025-12-14:1193721.53,2025-12-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method partial_payment."
+request_234,378.6,affordable_later,wait,2026-08-14:1213.3,2026-08-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_235,967.2,affordable_now,full_payment,2024-09-06:967.2,2024-09-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_236,10835700,not_affordable,not_recommended,none,2025-04-15,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_237,23826000,affordable_now,full_payment,2026-04-05:23826000,2026-04-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_238,663.6,affordable_with_plan,installments,2024-12-07:230.05|2025-01-07:230.05|2025-02-07:230.05,2024-12-07,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_239,0,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_240,20020,affordable_with_plan,partial_payment,2026-01-06:20020|2026-03-15:81180,2026-03-15,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method partial_payment."
+request_241,21052000,affordable_with_plan,installments,2024-03-17:7298026.67|2024-04-17:7298026.67|2024-05-18:7298026.67,2024-03-03,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_242,211.4,not_affordable,not_recommended,none,,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_243,17468,affordable_now,full_payment,2026-07-07:17468,2026-07-07,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_244,49918,affordable_now,full_payment,2024-06-04:49918,2024-06-04,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_245,57140,affordable_later,wait,2025-11-14:128500,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_246,64086,affordable_with_plan,installments,2026-04-03:22216.48|2026-05-03:22216.48|2026-06-02:22216.48,2026-04-03,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_247,1059.3,affordable_now,full_payment,2024-09-05:1059.3,2024-09-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_248,1152.36,affordable_with_plan,partial_payment,2025-02-07:1152.36|2025-02-14:813.24,2025-02-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method partial_payment."
+request_249,292.4,affordable_later,wait,2026-01-14:643.2,2026-01-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_250,20880.2,not_affordable,not_recommended,none,2025-02-16,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_251,1513.6,affordable_later,not_recommended,none,2025-05-03,none,"Based on current balance and upcoming commitments, affordable_later with recommended method not_recommended."
+request_252,8052200,affordable_later,wait,2026-08-14:28082000,2026-08-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_253,1717.57,affordable_with_plan,installments,2024-03-21:984.6|2024-04-21:984.6|2024-05-22:984.6,2024-03-17,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_254,1384.6,affordable_later,wait,2025-08-14:3535.2,2025-08-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_255,3345000,affordable_now,full_payment,2026-04-06:3345000,2026-04-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_256,192683.28,affordable_with_plan,installments,2024-06-10:75816|2024-07-11:75816|2024-08-11:75816,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_257,941.2,affordable_later,wait,2025-11-14:1352.4,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_258,1113.6,affordable_now,full_payment,2026-01-07:1113.6,2026-01-07,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_259,529.3,affordable_later,wait,2024-09-14:935,2024-09-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_260,12646400,affordable_with_plan,partial_payment,2025-02-06:12646400|2025-04-15:39432600,2025-04-15,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method partial_payment."
+request_261,1830.4,affordable_now,full_payment,2026-07-03:1830.4,2026-07-03,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_262,9236000,affordable_now,full_payment,2024-12-05:9236000,2024-12-05,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_263,10749.52,not_affordable,not_recommended,none,2025-07-17,none,"Based on current balance and upcoming commitments, not_affordable with recommended method not_recommended."
+request_264,36910,affordable_later,wait,2026-05-14:111300,2026-05-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_265,45970,affordable_now,full_payment,2024-03-06:45970,2024-03-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
+request_266,935,affordable_with_plan,installments,2025-08-03:324.13|2025-08-31:324.13|2025-09-28:324.13,2025-08-03,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_267,1925,affordable_with_plan,installments,2026-01-08:667.33|2026-02-07:667.33|2026-03-09:667.33,2026-01-05,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_268,1134.52,affordable_with_plan,installments,2024-06-14:841.22|2024-07-15:841.22|2024-08-15:841.22,2024-06-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_269,15054.6,affordable_later,wait,2025-11-14:15490,2025-11-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_270,339.39,affordable_later,not_recommended,none,2026-07-19,none,"Based on current balance and upcoming commitments, affordable_later with recommended method not_recommended."
+request_271,36671.4,affordable_later,wait,2024-09-14:91300,2024-09-14,none,"Based on current balance and upcoming commitments, affordable_later with recommended method wait."
+request_272,7531524,affordable_with_plan,installments,2025-02-12:4709466.67|2025-03-12:4709466.67|2025-04-09:4709466.67,2025-02-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_273,12228400,affordable_with_plan,partial_payment,2026-04-07:12228400|2026-04-14:3632600,2026-04-14,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method partial_payment."
+request_274,2703.12,affordable_with_plan,installments,2024-12-04:940.75|2025-01-04:940.75|2025-02-04:940.75,2024-12-16,none,"Based on current balance and upcoming commitments, affordable_with_plan with recommended method installments."
+request_275,15884000,affordable_now,full_payment,2025-05-06:15884000,2025-05-06,none,"Based on current balance and upcoming commitments, affordable_now with recommended method full_payment."
