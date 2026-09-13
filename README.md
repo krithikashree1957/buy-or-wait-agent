@@ -2,7 +2,51 @@
 
 Starter repository for the **HackerRank Orchestrate** 24-hour hackathon (September 2026).
 
-## Buy or Wait?
+## Buy or Wait? — AI-powered financial decision agent
+
+HackerRank Orchestrate (September 2026) submission. For every request in
+`dataset/requests.csv` the agent decides whether to pay in full, pay partially,
+use installments, wait, or not proceed — deterministically, from the user's
+reconstructed financial position.
+
+## Pipeline
+
+`dataset/` CSVs → `code/ingest.py` (cash-state rules, FX conversion, image
+linking) → `code/forecasting.py` (90-day day-by-day balance forecast,
+amount_safe_to_pay, payment-option simulation, 6-step plan ranking, earliest
+full-payment date, spending_changes_needed) → `code/judgment.py`
+(decision_explanation; OpenAI-compatible LLM call when `OPENAI_API_KEY` is
+set, otherwise a deterministic grounded explanation) → `code/main.py` writes
+root-level `output.csv`.
+
+## Setup
+
+1. Python 3.11+ (uses only the standard library; no pip install required).
+2. Optional LLM explanations: set `OPENAI_API_KEY` in the environment or a
+   `.env` file (never committed). Without it the run stays fully deterministic.
+
+## Run
+
+```bash
+python code/main.py
+```
+
+- Writes `output.csv` (repo root) with the exact 8-column contract:
+  `request_id,amount_safe_to_pay,affordability_status,recommended_payment_method,payment_plan,earliest_date_for_full_payment,spending_changes_needed,decision_explanation`
+- One row per `dataset/requests.csv` request; a per-request failure is logged
+  and written as a conservative fallback row instead of crashing the run.
+- Token usage for the final run is dumped to
+  `code/evaluation/usage_data.json` and summarized in
+  `code/evaluation/usage_report.md`.
+
+## Tests / validation
+
+```bash
+python code/tests/test_forecasting.py
+```
+
+Compares the engine against `dataset/sample_requests.csv` known answers.
+
 
 Build an AI-powered financial agent that decides whether a user can safely afford a requested expense.
 
